@@ -1,0 +1,37 @@
+*
+{
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #110202;
+}
+.teclado
+{
+    display: flex;  
+    flex-wrap: wrap; 
+    margin: auto;
+    justify-content: center;
+}
+.container
+{
+    width: 50%;
+}
+.tecla
+{   
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 2px  solid #2bff00;
+    box-shadow: 3px 3px 8px #00fff281;
+    border-radius: 8px;
+    margin: 10px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
